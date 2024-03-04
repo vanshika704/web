@@ -1,21 +1,19 @@
 body {
-    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Madimi One', sans-serif;
+    overflow-y: auto;
 }
 
 .image-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 10px;
 }
 
 h2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height: 1;
-    -webkit-background-clip: text;
-    background-clip: border-box;
-    color: rgb(11, 106, 122);
-    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
     margin: 0 10px;
 }
 
@@ -25,7 +23,11 @@ img {
 }
 
 hr {
-    margin: 10px 0;
+    margin: 20px 0;
+}
+
+.nav-container {
+    text-align: center;
 }
 
 nav {
@@ -38,21 +40,50 @@ nav a {
     font-size: 18px;
     text-decoration: none;
     color: #333;
-    font-weight: bold; 
+    font-weight: bold;
 }
 
 nav a:hover {
-    color: rgb(231, 42, 42);
+    color: rgb(11, 106, 122);
 }
-.background-container {
-    background-image: url('path/to/your/image.jpg'); 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff; 
+
+.intro {
+    background: linear-gradient(to right, rgb(243, 129, 129), rgb(86, 122, 175), rgb(119, 177, 119), rgb(226, 226, 132));
+    color: #070707;
+    padding: 20px;
     text-align: center;
+    
+    border-radius: 10px; /* Add border radius for a rounded corner */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.madimi-one-regular {
+    font-family: 'Madimi One', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+.card {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    padding: 20px; 
+}
+
+.grid-item {
+    background-color: #ddd;
+    padding: 20px;
+    text-align: center;
+}
+.additional-content {
+    
+    height: 1000px; 
+    background-color: #f0f0f0;
 }
