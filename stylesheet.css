@@ -1,0 +1,19 @@
+body {
+    
+    text-align: center;
+}
+
+h1 {
+    line-height: 1;
+    -webkit-background-clip: text;
+    background-clip: border-box;
+    color: rgb(11, 106, 122);
+    display: inline-block;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
