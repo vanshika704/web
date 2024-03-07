@@ -39,16 +39,29 @@
         }
 
         #section2 {
-            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKfB8Ta08Vtp_SaT_KqZYGj4dCfse7CregSw&usqp=CAU');
             display: flex;
             justify-content: space-around;
-            align-items: center;
+            align-items: stretch;
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKfB8Ta08Vtp_SaT_KqZYGj4dCfse7CregSw&usqp=CAU');
             font-family: "Mukta", sans-serif;
             font-weight: 600;
             font-style: normal;
         }
 
-        p {
+        .column {
+            flex: 1;
+            width: 30%;
+            max-width: 100px;
+            margin: 10px;
+            background-color: rgba(66, 64, 64, 0.7);
+            padding: 10px;
+            border-radius: 10px;
+            word-wrap: break-word;
+            max-height: 400px; /* Set the max height to 50 pixels */
+            overflow: hidden; /* Hide overflow content */
+        }
+
+        p.mukta-semibold {
             color: black;
             font-size: 24px;
             font-weight: bold;
@@ -60,16 +73,6 @@
             left: 50%;
             transform: translateX(-50%);
             font-family: 'Madimi One', sans-serif;
-        }
-
-        .column {
-            width: 30%;
-            max-width: 300px;
-            margin: 10px;
-            background-color: rgba(66, 64, 64, 0.7);
-            padding: 20px;
-            border-radius: 10px;
-            word-wrap: break-word;
         }
        
         pre {
@@ -83,13 +86,17 @@
         <p>WORKFLOW......</p>
     </section>
     <section id="section2">
-        <p>What does a Lead do?</p>
-        <div></div>
+        <p class="mukta-semibold">What does a Lead do?</p>
         <div class="column"><i class="fa fa-group"></i><br>
             <pre class="mukta-semibold">Start or grow a club<br>Work with your university to start a student club. Create a core team and select a faculty advisor to support.</pre>
         </div>
-        <div class="column">Column 2</div>
-        <div class="column">Column 3</div>
+        <div class="column"><i class="fa fa-calendar"></i><br>
+            <pre class="mukta-semibold">Host workshops<br> student knowledge on developer products and platforms through hands-on workshops and events.
+            </pre>
+        </div>
+        <div class="column"><i class="fa fa-mobile"></i><br>
+            <pre class="mukta-semibold">Build projects Identify local partners to work with and lead project building activities.</pre>
+        </div>
     </section>
 </body>
 </html>
