@@ -3,21 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
     <title>About</title>
+
     <style>
         body {
             margin: 0;
             padding: 0;
             font-family: 'Madimi One', sans-serif;
-            overflow-y: auto;
-            background-image: url('https://gdscasu.com/images/intro-shape.svg'); 
-            background-size: cover;
-            background-position: center;
+        }
+
+        section {
+            height: 100vh;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
             background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+            position: relative;
+        }
+
+        #section1 {
+            background-image: url('https://gdsc-uinjkt.github.io/assets/img/role-in-gdsc%201.svg');
+        }
+
+        #section2 {
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKfB8Ta08Vtp_SaT_KqZYGj4dCfse7CregSw&usqp=CAU');
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        p {
+            color: black;
+            font-size: 24px;
+            font-weight: bold;
+            background: transparent;
+            padding: 20px;
+            border-radius: 10px;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            font-family: 'Madimi One', sans-serif;
+        }
+
+        .column {
+            width: 30%;
+            max-width: 300px;
+            margin: 10px;
+            background-color: rgba(66, 64, 64, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            word-wrap: break-word;
+        }
+
+        pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
         }
     </style>
 </head>
 <body>
- <p>  </p>
+    <section id="section1">
+        <p>WORKFLOW......</p>
+    </section>
+    <section id="section2">
+        <p>What does a Lead do?</p>
+        <div class="column"><i class="fa fa-group"></i><br>
+            <pre>Start or grow a club<br>Work with your university to start a student club. Create a core team and select a faculty advisor to support.</pre>
+        </div>
+        <div class="column">Column 2</div>
+        <div class="column">Column 3</div>
+    </section>
 </body>
 </html>
