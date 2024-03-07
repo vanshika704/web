@@ -87,3 +87,8 @@ nav a:hover {
     height: 1000px; 
     background-color: #f0f0f0;
 }
+.mukta-semibold {
+    font-family: "Mukta", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
