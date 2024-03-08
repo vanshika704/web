@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <title>About</title>
+
 
     <style>
         body {
@@ -21,17 +23,18 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            background-color: rgb(65, 63, 63); 
+            background-color: rgb(81, 211, 161); 
             color: #302626;
             overflow-x: hidden;
             overflow-y: auto;
         }
 
-        .parallax-section {width: 50vh;
+        .parallax-section {
             position: relative;
             text-align: center;
             padding: 100px;
             height: 100vh;
+            width: 100%;
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
@@ -40,14 +43,15 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            margin: 0; 
         }
 
         img {
             display: block;
             margin: 0 auto;
-            height: 150px;
-            width: 150px;
-            margin-bottom: 10px;
+            height: 100vh; 
+            width: 100%;
+            object-fit: cover; 
         }
 
         hr {
@@ -68,31 +72,7 @@
         }
 
        
-        .parallax-section:nth-child(odd) {
-            background-image: url('IMG_20240308_180718.jpg'); 
-        }
-
-        .parallax-section:nth-child(even) {
-            background-image: url('IMG_20240308_180736.jpg'); 
-        }
-        .parallax-section:nth-child(3n) {
-            background-image: url('IMG_20240308_180752.jpg'); /* Change to your image path */
-        }
-        .parallax-section:nth-child(4n) {
-            background-image: url('IMG_20240308_180804.jpg'); /* Change to your image path */
-        }
-        .parallax-section:nth-child(5n) {
-            background-image: url('IMG_20240308_180817.jpg'); /* Change to your image path */
-        }
-        .parallax-section:nth-child(6n) {
-            background-image: url('IMG_20240308_180829.jpg'); /* Change to your image path */
-        }
-        .parallax-section:nth-child(7n) {
-            background-image: url('IMG_20240308_180853.jpg'); /* Change to your image path */
-        }
-        .parallax-section:nth-child(8n) {
-            background-image: url('IMG_20240308_180909.jpg'); /* Change to your image path */
-        }
+      
     </style>
 </head>
 <body>
