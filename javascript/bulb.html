@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Turn on the bulb</title>
+    </head>
+    <body>
+        <button onclick="toggleLight()"> Light on</button>
+        <img id="myImage" src="bulbon.png" style="width: 100px;">
+        <script>
+            function toggleLight() {
+                var img = document.getElementById('myImage');
+                if (img.src.includes('bulbon')) {
+                    img.src = 'bulboff.png';
+                } else {
+                    img.src = 'bulbon.png';
+                }
+            }
+        </script>
+    </body>
+</html>
+
