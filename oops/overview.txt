@@ -1,0 +1,18 @@
+1 what is oops?
+oops is a programming technique in which all the things work around objects .
+
+2 what is object ?
+object is an programming entity which has two things 
+1 state 
+2 behaviour 
+
+3 why we use oops?
+to increase the readability and managability of the code.
+
+4 what is class?
+it is a user defined datatype
+
+5 making of class.
+class name of class {
+    properties -> properties include all the variables to be used ,
+}
