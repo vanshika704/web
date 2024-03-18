@@ -30,4 +30,7 @@ access modifiers have the work of taking care weather the contents of the class 
  
  8 public:
  the properties of class which are public can be accessed anywhere in the file.
-
+ 
+ 9 private:
+the properties of class which are private can be accessed anywhere in the class but not outside the file.
+ 
