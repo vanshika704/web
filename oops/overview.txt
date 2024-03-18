@@ -20,4 +20,14 @@ class name of class {
 for finding the memory size , we can use SizeOf()
 
 * in case of empty class , 1 byte of memory is alloted to it 
+ 
+ 6 How to  access properties/data members ?
+ using . operator 
+ ie ramesh.health
+
+7 Access modifiers :
+access modifiers have the work of taking care weather the contents of the class should be accesible outside the class also.
+ 
+ 8 public:
+ the properties of class which are public can be accessed anywhere in the file.
 
