@@ -37,4 +37,28 @@ the properties of class which are private can be accessed anywhere in the class 
 10 protected:
 the properties of class which can be accesed outside the class also but with some conditions.
 
+11 what are getters and setters ?
+getters and setters are generally used to make the properties as function so that they are easily accesible anywhere in the code.
+Getters: These are methods that are used to access the value of a private attribute from outside the class.
+Setters: These are methods that are used to modify the value of a private attribute from outside the class. 
+
+12 Padding and greedy alignment:
+padding reffers to adding extra bytes to the structure or class for better alignment ..
+greedy alignment:
+used to minimize the use of padding .
+
+13 static allocation:
+initialized once , no heap values , single values and initial and final values of the variable are same .
+example:
+hero a ;
+cout<<a.health<<endl
+
+14 dynamic allocation:
+initialized once , contains heap values ,initial value is different and final value is changed using * new name= new value;
+hero* b = new hero;
+cout<< (*b).level<<endl;
+
+15 this keyword:
+this keyword is used for reffering to that particular value with which it is used .
+even if the variable has any other value , we can edit it.
  
