@@ -13,10 +13,10 @@ to increase the readability and managability of the code.
 it is a user defined datatype
 
 5 making of class.
-class name of class {
+class name of class (constructors) {
     properties -> properties include all the variables to be used ,
 }
-* new learning*
+* new learning *
 for finding the memory size , we can use SizeOf()
 
 * in case of empty class , 1 byte of memory is alloted to it 
@@ -32,5 +32,9 @@ access modifiers have the work of taking care weather the contents of the class 
  the properties of class which are public can be accessed anywhere in the file.
  
  9 private:
-the properties of class which are private can be accessed anywhere in the class but not outside the file.
+the properties of class which are private can be accessed anywhere in the class but not outside the class.
+
+10 protected:
+the properties of class which can be accesed outside the class also but with some conditions.
+
  
