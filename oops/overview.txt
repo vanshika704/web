@@ -16,3 +16,8 @@ it is a user defined datatype
 class name of class {
     properties -> properties include all the variables to be used ,
 }
+* new learning*
+for finding the memory size , we can use SizeOf()
+
+* in case of empty class , 1 byte of memory is alloted to it 
+
