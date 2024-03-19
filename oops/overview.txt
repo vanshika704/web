@@ -75,5 +75,5 @@ deep copy reffers to when the constructor uses new memory location on using copy
 
 * instance is basically the object of class *
 
-* methods which are automatically executed everytime you create an object are called constructors.
+* methods which are automatically executed everytime you create an object are called constructors*.
  
