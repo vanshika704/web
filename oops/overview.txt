@@ -61,4 +61,9 @@ cout<< (*b).level<<endl;
 15 this keyword:
 this keyword is used for reffering to that particular value with which it is used .
 even if the variable has any other value , we can edit it.
+
+16 copy constructors:
+hero R(Suresh){
+    r.health= Suresh.health;
+}
  
