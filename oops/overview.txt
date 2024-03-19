@@ -66,4 +66,14 @@ even if the variable has any other value , we can edit it.
 hero R(Suresh){
     r.health= Suresh.health;
 }
+
+17 shallow copy :
+shallow copy reffers to when the constructor uses same memory location on using copy constructor .
+
+18 deep copy :
+deep copy reffers to when the constructor uses new memory location on using copy constructor
+
+* instance is basically the object of class *
+
+* methods which are automatically executed everytime you create an object are called constructors.
  
