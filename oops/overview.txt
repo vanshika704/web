@@ -25,7 +25,7 @@ for finding the memory size , we can use SizeOf()
  using . operator 
  ie ramesh.health
 
-7 Access modifiers ://.
+7 Access modifiers :
 access modifiers have the work of taking care weather the contents of the class should be accesible outside the class also.
  
  8 public:
