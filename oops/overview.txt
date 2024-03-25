@@ -1,5 +1,5 @@
 1 what is oops?
-oops is a programming technique in which all the things work around objects .
+oops is a programming technique in which all the things work around objects ..
 
 2 what is object ?
 object is an programming entity which has two things 
