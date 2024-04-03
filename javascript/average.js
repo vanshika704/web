@@ -5,4 +5,4 @@ for (let i = 0; i < enteries.length; i++) {
   offer.push(enteries[i] - enteries[i] / 10);
 }
 
-console.log(offer);
+console.log(offer);//.
